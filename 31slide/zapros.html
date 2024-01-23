@@ -1,0 +1,21 @@
+
+<html>
+<head>
+    <title>Приветствие</title>
+    <script>
+        function displayGreeting() {
+            var name = document.getElementById("name").value;
+            var greeting = "Привет, " + name + "!";
+            document.getElementById("greeting").innerHTML = greeting
+        }
+    </script>
+</head>
+<body>
+    <h1>Приветствие</h1><!DOCTYPE html>
+    <label for="name">Введите ваше имя:</label>
+    <input type="text" id="name">
+    <button onclick="displayGreeting()">Представиться</button>
+    <div id="greeting"></div>
+    </input>
+</body>
+</html> 
